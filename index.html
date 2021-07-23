@@ -2,161 +2,287 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Study</title>
-<style>
-.dropbtn {
-    background-color: teal;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    right: 0;
-    background-color: orange;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-.dropdown-content a:hover {
-    background-color: bisque;
-    color: teal;
-}
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-.dropdown:hover .dropbtn {
-    background-color: orangered;
-}
-</style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Study</title>
+  <style>
+    .dropbtn {
+      background-color: teal;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      right: 0;
+      background-color: orange;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    .dropdown-content a:hover {
+      background-color: bisque;
+      color: teal;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    .dropdown:hover .dropbtn {
+      background-color: orangered;
+    }
+    table {
+      border:;
+    }
+  </style>
 </head>
 
 <body>
 
-<h2> test dropbtn</h2>
-<div class="dropdown" style="float:left;">
-  <button class="dropbtn">left</button>
-  <div class="dropdown-content" style="left:0;">
-    <a href="#">a</a>
-    <a href="#">b</a>
-    <a href="#">c</a>
+  <h2> test dropbtn</h2>
+  <div class="dropdown" style="float:left;">
+    <button class="dropbtn">left</button>
+    <div class="dropdown-content" style="left:0;">
+      <a href="#">a</a>
+      <a href="#">b</a>
+      <a href="#">c</a>
+    </div>
   </div>
-</div>
-<div class="dropdown" style="float:right;">
-  <button class="dropbtn">right</button>
+  <div class="dropdown" style="float:right;">
+    <button class="dropbtn">right</button>
     <div class="dropdown-content">
-    <a href="#">a</a>
-    <a href="#">c</a>
-    <a href="#">d</a>
+      <a href="#">a</a>
+      <a href="#">c</a>
+      <a href="#">d</a>
+    </div>
   </div>
-</div>
-  
-  
-<br />
-<br />
-<br />
-<br />
-<br />
-  
-  
-  
-    <div class="CSS">
-        CSS = Cascading Style Sheets <br>
-        CSS Filename extension = .css <br>
-
-        css syntax : <br>
-        <img src="images/img_selector.gif" alt=""> <br>
-        id (selector) = #(হ্যাশ) <br>
-        class (selector) = .(ডট) বিঃদ্রঃ class নাম কখনোই নাম্বার দিয়ে শুরু করা যাবে না।<br>
-        CSS:
-        <ul>
-            <li> inline </li>
-            <li> internal </li>
-            <li> external </li>
-        </ul>
-
-        CSS Color : <br>
-        কালারের নাম ব্যবহার করে- যেমন "red" <br>
-        RGB ভ্যালু ব্যবহার করে - যেমন "rgb(255, 0, 0)" <br>
-        HEX ভ্যালু ব্যবহার করে - যেমন "#ff0000" <br>
-
-        CSS background: <br />
-        background-color <br />
-        background-image <br />
-        background-position
-        background-repeat
-        background-attachment
-
-        <br>
 
 
-        <table>
-            <tr>
-                <td> </td>
-                <td></td>
-            </tr>
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
 
 
-        </table>
+
+  <div class="CSS">
+    CSS = Cascading Style Sheets <br>
+    CSS Filename extension = .css <br>
+
+    css syntax : <br>
+    <img src="images/img_selector.gif" alt=""> <br>
+    id (selector) = #(হ্যাশ) <br>
+    class (selector) = .(ডট) বিঃদ্রঃ class নাম কখনোই নাম্বার দিয়ে শুরু করা যাবে না।<br>
+    CSS:
+    <ul>
+      <li> inline </li>
+      <li> internal </li>
+      <li> external </li>
+    </ul>
+
+    CSS Color : <br>
+    কালারের নাম ব্যবহার করে- যেমন "red" <br>
+    RGB ভ্যালু ব্যবহার করে - যেমন "rgb(255, 0, 0)" <br>
+    HEX ভ্যালু ব্যবহার করে - যেমন "#ff0000" <br>
+
+    CSS background: <br />
+    background-color <br />
+    background-image <br />
+    background-position
+    background-repeat
+    background-attachment
+
+    <br>
 
 
-        CSS Basic
-        CSS Introduction
-        CSS How to Write
-        In-line CSS
-        Internal Style
-        External Style Sheet
-        @import Style Sheet
-        CSS Class
-        CSS ID
-        CSS Style
-        CSS Text
-        CSS Font
-        CSS Background
-        CSS Links
-        CSS Lists
-        CSS Display
-        CSS Visibility
-        CSS Layout Style
-        CSS Layout Model
-        CSS Border
-        CSS Margin
-        CSS Padding
-        CSS Outline
-        CSS Float Style
-        CSS Float
-        CSS Align
-        CSS Position
-        CSS Element Size
-        CSS Layer
-        CSS Properties & Selectors
-        CSS Properties (A to Z List)
-        CSS Properties (GroupWise List)
-        CSS Pseudo Class Selector
-        CSS Pseudo Element Selector
-        CSS Reference
-        CSS Color Picker
-        CSS Color Code
-        CSS Media Type
-        CSS Measurement Value
-        CSS Cheet Sheet
+    <table>
+      <tr>
+        <td>   </td>
+        <td>     </td>
+      </tr>
+
+
+    </table>
+    <table border="1" width="100%" style="text-align: center;">
+      <colgroup>
+        <col span="1" style="background-color:teal">
+        <col style="background-color:yellow">
+      </colgroup>
+      <caption> HTML Version </caption>
+      <!--             thead,tbody,tthead css er jonne -->
+      <!-- <thead>
+                  <tr>
+                    <th>HTML Version</th>
+                    <th>Year</th>
+                  </tr>
+              </thead>-->
+      <tbody>
+
+        <tr>
+
+          <td>CSS Basic </td>
+          <td> CSS Introduction </td>
+          <td> CSS How to Write </td>
+          <td> In-line CSS  </td>
+        </tr>
+        <tr>
+          <td> Internal Style  </td>
+          <td> External Style Sheet </td>
+          <td> import Style Sheet </td>
+          <td>     CSS Class</td>
+        </tr>
+        <tr>
+          <td> CSS ID  </td>
+          <td> CSS Style </td>
+          <td>  CSS Text </td>
+          <td>  CSS Font </td>
+        </tr>
+        <tr>
+          <td>       CSS Background
+      CSS Links
+      CSS Lists
+      CSS Display </td>
+          <td>  </td>
+          <td>  </td>
+          <td>  </td>
+        </tr>
+        <tr>
+          <td> CSS Visibility
+      CSS Layout Style
+      CSS Layout Model
+      CSS Border </td>
+          <td>  </td>
+          <td>  </td>
+          <td>  </td>
+        </tr>
+
+      </tbody>
+      <tfoot>
+
+        <tr>
+          <td> CSS Margin
+      CSS Padding
+      CSS Outline
+      CSS Float Style </td>
+          <td>  </td>
+          <td>  </td>
+          <td>  </td>
+        </tr>
+        <tr>
+          <td>       CSS Float
+      CSS Align
+      CSS Position
+      CSS Element Size </td>
+          <td>  </td>
+          <td>  </td>
+          <td>  </td>
+        </tr>
+        <tr>
+          <td>  </td>
+          <td>  </td>
+          <td>  </td>
+          <td>  </td>
+        </tr>
+        <tr>
+          <td>  </td>
+          <td>  </td>
+          <td>  </td>
+          <td>  </td>
+        </tr>
+        <tr>
+          <td>  </td>
+          <td>  </td>
+          <td>  </td>
+          <td>  </td>
+        </tr>
+        <tr>
+          <td>  </td>
+          <td>  </td>
+          <td>  </td>
+          <td>  </td>
+        </tr>
+
+      </table>
+
+
+
+
+
+
+      
+
+      
+      
+
+      CSS Layer
+      CSS Properties & Selectors
+      CSS Properties (A to Z List)
+      CSS Properties (GroupWise List)
+      CSS Pseudo Class Selector
+      CSS Pseudo Element Selector
+      CSS Reference
+      CSS Color Picker
+      CSS Color Code
+      CSS Media Type
+      CSS Measurement Value
+      CSS Cheet Sheet
+
+
+      CSS Basic
+      CSS Introduction
+      CSS How to Write
+      In-line CSS
+      Internal Style
+      External Style Sheet
+      @import Style Sheet
+      CSS Class
+      CSS ID
+      CSS Style
+      CSS Text
+      CSS Font
+      CSS Background
+      CSS Links
+      CSS Lists
+      CSS Display
+      CSS Visibility
+      CSS Layout Style
+      CSS Layout Model
+      CSS Border
+      CSS Margin
+      CSS Padding
+      CSS Outline
+      CSS Float Style
+      CSS Float
+      CSS Align
+      CSS Position
+      CSS Element Size
+      CSS Layer
+      CSS Properties & Selectors
+      CSS Properties (A to Z List)
+      CSS Properties (GroupWise List)
+      CSS Pseudo Class Selector
+      CSS Pseudo Element Selector
+      CSS Reference
+      CSS Color Picker
+      CSS Color Code
+      CSS Media Type
+      CSS Measurement Value
+      CSS Cheet Sheet
 
     </div>
-</body>
+  </body>
 
 </html>
